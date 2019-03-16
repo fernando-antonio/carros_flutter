@@ -4,6 +4,7 @@ import 'package:carros/pages/carro_page.dart';
 import 'package:carros/utils/nav.dart';
 import 'package:flutter/material.dart';
 import 'package:share/share.dart';
+import "package:ok_image/ok_image.dart";
 
 class CarrosListView extends StatelessWidget {
 
@@ -34,8 +35,8 @@ class CarrosListView extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
                     Center(
-                      child: Image.network(
-                        c.urlFoto ?? "http://www.livroandroid.com.br/livro/carros/esportivos/Ferrari_FF.png",
+                      child: OKImage(
+                        url: c.urlFoto ?? "http://www.livroandroid.com.br/livro/carros/esportivos/Ferrari_FF.png",
                         height: 150,
                       ),
                     ),

@@ -34,6 +34,7 @@ dev_dependencies:
   google_maps_flutter: ^0.2.0+3
   webview_flutter: ^0.3.4
   local_auth: ^0.4.0+1
+  ok_image: ^0.3.0
 
   #Firebase
   flutter_auth_buttons: ^0.3.1
